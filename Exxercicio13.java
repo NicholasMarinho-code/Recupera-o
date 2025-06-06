@@ -9,10 +9,10 @@ public class Exxercicio13 {
         String letra = JOptionPane.showInputDialog("Digite uma letra do alfabeto em minúscula");
         
         switch (letra) {
-            case ("a") :
+            case ("1") :
                 JOptionPane.showMessageDialog(null, "O número 1 corresponde ao domingo");
                 break;
-            case ("b") :
+            case ("2") :
                 JOptionPane.showMessageDialog(null, "O número 2 corresponde à segunda-feira");
                 break;
             case ("3") :
