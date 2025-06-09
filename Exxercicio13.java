@@ -6,7 +6,7 @@ public class Exxercicio13 {
     public static void main(String[] args) {
      JOptionPane.showMessageDialog(null, "Bem-Vindo!!");
         
-        String letra = JOptionPane.showInputDialog("Digite uma letra do alfabeto em minúscula");
+        String letra = JOptionPane.showInputDialog("Digite uma letra do alfabeto (a-z)");
         
         switch (letra.toLowerCase()) {
             case ("a") :
