@@ -4,7 +4,9 @@ import javax.swing.JOptionPane;
 
 public class Exercicio15 {
     public static void main(String[] args) {
-        double saldo = Double.parseDouble(JOptionPane.showInputDialog("Quanto tem de saldo:"));
+        JOptionPane.showMessageDialog(null, "Bem-vindo ao caixa eletrônico virtual!");
+    
+        double saldo = Double.parseDouble(JOptionPane.showInputDialog("Porfavor insira o seu saldo: "));
         String opcao = JOptionPane.showInputDialog("Digite uma opção entre: saque, depósito ou saldo:");
         
         switch (opcao.toLowerCase()) {
@@ -14,7 +16,7 @@ public class Exercicio15 {
                     JOptionPane.showMessageDialog(null, "Você não pode sacar esse valor.");
                 } else {
                     JOptionPane.showMessageDialog(null, "Você sacou: " + saque);
-                    JOptionPane.showMessageDialog(null, "Seu saldo agora é de: " + (saque - saldo));
+                    JOptionPane.showMessageDialog(null, "Seu saldo agora é de: " + (saldo - saque));
                 }
                 break;
 
