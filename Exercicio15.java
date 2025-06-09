@@ -14,6 +14,7 @@ public class Exercicio15 {
                     JOptionPane.showMessageDialog(null, "Você não pode sacar esse valor.");
                 } else {
                     JOptionPane.showMessageDialog(null, "Você sacou: " + saque);
+                    JOptionPane.showMessageDialog(null, "Seu saldo agora é de: " + (saque - saldo));
                 }
                 break;
 
