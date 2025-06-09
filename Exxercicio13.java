@@ -4,34 +4,28 @@ import javax.swing.JOptionPane;
 
 public class Exxercicio13 {
     public static void main(String[] args) {
-               JOptionPane.showMessageDialog(null, "Bem-Vindo!!");
+     JOptionPane.showMessageDialog(null, "Bem-Vindo!!");
         
         String letra = JOptionPane.showInputDialog("Digite uma letra do alfabeto em minúscula");
         
-        switch (letra) {
-            case ("1") :
-                JOptionPane.showMessageDialog(null, "O número 1 corresponde ao domingo");
+        switch (letra.toLowerCase()) {
+            case ("a") :
+                JOptionPane.showMessageDialog(null, "A letra: " + letra + " é uma vogal");
                 break;
-            case ("2") :
-                JOptionPane.showMessageDialog(null, "O número 2 corresponde à segunda-feira");
+            case ("e") :
+                JOptionPane.showMessageDialog(null, "A letra: " + letra + " é uma vogal");
                 break;
-            case ("3") :
-                JOptionPane.showMessageDialog(null, "O número 3 corresponde à terça-feira");
+            case ("i") :
+                JOptionPane.showMessageDialog(null, "A letra: " + letra + " é uma vogal");
                 break;
-            case ("4") :
-                JOptionPane.showMessageDialog(null, "O número 4 corresponde à quarta-feira");
+            case ("o") :
+                JOptionPane.showMessageDialog(null, "A letra: " + letra + " é uma vogal");
                 break;
-            case ("5") :
-                JOptionPane.showMessageDialog(null, "O número 5 corresponde à quinta-feira");
-                break;
-            case ("6") :
-                JOptionPane.showMessageDialog(null, "O número 6 corresponde à quinta-feira");
-                break;
-            case ("7") :
-                JOptionPane.showMessageDialog(null, "O número 7 corresponde à sábado");
+            case ("u") :
+                JOptionPane.showMessageDialog(null, "A letra: " + letra + " é uma vogal");
                 break;
             default :
-                JOptionPane.showMessageDialog(null, "Escolha um número correspondente");
+                JOptionPane.showMessageDialog(null, "A letra: " + letra + " é uma consoante");
                 break;
     }
     }
